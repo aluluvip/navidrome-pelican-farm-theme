@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+ui/build/
+navidrome
+navidrome-*
+*.log
+*.pid
+*.db
+*.db-shm
+*.db-wal
+*.toml
+*.bak
+*.new

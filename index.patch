@@ -1,0 +1,19 @@
+diff --git a/ui/src/themes/index.js b/ui/src/themes/index.js
+--- a/ui/src/themes/index.js
++++ b/ui/src/themes/index.js
+@@ -14,6 +14,7 @@ import DraculaTheme from './dracula'
+ import NuclearTheme from './nuclear'
+ import NutballTheme from './nutball'
+ import AmusicTheme from './amusic'
++import StardewValleyTheme from './stardewValley'
+ import SquiddiesGlassTheme from './SquiddiesGlass'
+ import NautilineTheme from './nautiline'
+ import MoonbaseAlphaTheme from './moonbaseAlpha'
+@@ -42,6 +43,7 @@ export default {
+   NuclearTheme,
+   NutballTheme,
+   SpotifyTheme,
++  StardewValleyTheme,
+   SquiddiesGlassTheme,
+   TokyoNightLightTheme,
+   TokyoNightTheme,
