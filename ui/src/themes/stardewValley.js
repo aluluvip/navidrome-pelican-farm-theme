@@ -192,6 +192,16 @@ export default {
         backgroundColor: colors.leaf,
         borderRadius: 3,
       },
+      outlined: {
+        color: `${colors.cream} !important`,
+        backgroundColor: `${colors.leaf} !important`,
+        border: `2px solid ${colors.darkWood}`,
+      },
+      label: {
+        color: `${colors.cream} !important`,
+        fontWeight: 800,
+        letterSpacing: ".04em",
+      },
     },
     MuiDivider: { root: { height: 2, backgroundColor: "rgba(111,67,47,.3)" } },
     MuiTableCell: {
@@ -238,6 +248,13 @@ export default {
         border: `2px solid ${colors.cream}`,
         borderRadius: 3,
         boxShadow: pixelShadow,
+      },
+    },
+    NDQualityInfo: {
+      chip: {
+        minWidth: 58,
+        transform: "scale(.9)",
+        boxShadow: `2px 2px 0 rgba(59,40,37,.35)`,
       },
     },
     NDAlbumDetails: {
